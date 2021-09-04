@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /web
+  port: 8988
+async:
+  task:
+    pool:
+      corePoolSize: 10
+      maxPoolSize: 1000
